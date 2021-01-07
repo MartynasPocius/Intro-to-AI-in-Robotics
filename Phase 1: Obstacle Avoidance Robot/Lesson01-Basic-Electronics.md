@@ -31,3 +31,5 @@ As we made a general overview of the components, not it's time to discuss some o
 ## Sensors
 
 ## Power source
+
+## Breadboard
