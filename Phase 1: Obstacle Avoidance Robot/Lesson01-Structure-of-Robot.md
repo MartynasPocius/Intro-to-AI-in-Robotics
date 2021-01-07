@@ -1,6 +1,10 @@
 # Lesson 1: Structure of Robot
 
-<Insert two photos, one very advanced and other one quite simple>
+<p float = "left">
+  <img src = https://cdn.mos.cms.futurecdn.net/s9sxXfjdJwNhnpAoHgFegF.jpg width = "400"/>
+  <img src = https://images-na.ssl-images-amazon.com/images/I/71M45gF1qKL._SL1500_.jpg width = "400"/>
+</p>
+
 
 At the first glance, both of these robots seem to have more differences than similarities. However, it isn't the right assumption - every robot, no matter the complexity or application, have common structural characteristics, components and operate in quite similar manner.
 
@@ -28,11 +32,14 @@ There are going to be separate lessons that are going to cover some of the types
 
 ## Breadboard
 
-<Picture of breadboard could be useful>
-
 As we start building the prototype for robot or any other electrical device in general, we tend to make a lot of mistakes. Therefore, connecting electrical components by soldering might not be our go to option at the start. 
 
 ***Breadboard*** is a special board perfectly suited for prototyping. It is covered with a grid of pins that have a row of electrically continuos holes connected to it. Without going much in-depth, let's now look into the layout of breadboard.
 
-<Layout of breadboard>
-  
+![Image of breadboard layout](https://www.tweaking4all.com/wp-content/uploads/2013/12/basic_breadboard_layout.png)
+
+The structure has two main parts:
+- Grid (B and C areas in the figure)
+- Power rails (A and D areas)
+
+Grid pins (B and C) are connected vertically with each other, while power rail pins are connected horizontally and are usually connected to the power source.
