@@ -5,7 +5,7 @@ Welcome to the "Introduction to AI in Robotics" tutorial series!
 ## Syllabus
 
 1. Phase 1: Obstacle Avoidance Robot
-   - Lesson 1: Basic Electronics
+   - Lesson 1: Common Structure
    - Lesson 2: Microcontrollers and Arduino Uno
    - Lesson 3: Arduino IDE and Input-Output
      - Arduino IDE Syntax
