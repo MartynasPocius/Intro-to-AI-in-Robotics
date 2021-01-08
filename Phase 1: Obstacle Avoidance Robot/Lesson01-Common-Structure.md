@@ -1,4 +1,4 @@
-# Lesson 1: Structure of Robot
+# Lesson 1: Common Structure
 
 <p float = "left">
   <img src = https://cdn.mos.cms.futurecdn.net/s9sxXfjdJwNhnpAoHgFegF.jpg width = "400"/>
