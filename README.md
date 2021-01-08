@@ -16,9 +16,12 @@ Welcome to the "Introduction to AI in Robotics" tutorial series!
    - Lesson 3: Line following robot
    - Lesson 4: Final assembly
 3. Phase 3: Introduction to Webots
-4. Phase 4: Webots: TBA
+4. Phases 4-7: Webots: TBA
 
 ## Equipment
+
+In the normal setting, the tutorial series would require physical components. Due to the current pandemic situation, however, learners without bot kits are not going to be disadvantaged, as the practical part for the Phases 1-2 can be completed with Tinkercad circuit simulator. 
+Although, having physical kits are encouraged.
 
 ## Timeline
 
