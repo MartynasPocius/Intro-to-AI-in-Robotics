@@ -25,5 +25,5 @@ Welcome to the "Introduction to AI in Robotics" tutorial series!
 
 ## Timeline
 
-| Content | Date |
+| Title | Release Date |
 | --- | --- |
