@@ -16,11 +16,9 @@ There are a number of mictrocontrollers available in the market differing by the
 
 ### Structure
 
-<img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.electronicsmedia.info%2F2019%2F02%2F01%2Fbasic-concept-arduino-hardware-structure-arduino%2F&psig=AOvVaw3UPZ9Pg5nvPL2brR5qZkFg&ust=1611692049802000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDOrLryt-4CFQAAAAAdAAAAABAD">
+<img src = "https://learnstempedia-e872.kxcdn.com/wp-content/uploads/2018/08/Arduino-Pins-Description.png" width = "400"/>
 
-From the architecture perspective, Arduino Uno is based on the ATmega328 microchip and is equiped with 14 digital input/output, and 6 analog input pins. In addition, it has an USB port
-
-
+From the architecture perspective, Arduino Uno is based on the ATmega328 microchip and is equiped with 14 digital input/output, and 6 analog input pins. Although each of 14 digital pins can be used both, as an intput or output, it is a general consensus that the output components (LED, LCD, etc.) should be powered using the digital pins. The sensors, on the contrary, should be plugged into the analog pins as they have analog value. In addition, to the mentioned pins, there are a few power supply pins (3.3V, 5V, GND, Vin) - these are used to supply power to the external input or output components. Arduino UNO also has a USB port (used to program the board) and a power jack used to provide 9V. Finally, there is a reset button and a few LEDs.
 
 ## Programming
 
