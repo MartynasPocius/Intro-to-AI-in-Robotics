@@ -44,10 +44,3 @@ The structure has two main parts:
 
 Grid pins (B and C) are connected vertically with each other, while power rail pins are connected horizontally and are usually connected to the power source.
 
-## Tasks
-
-**Exercise 1**
-
-Throughout the series, various exercise are going to be used to embed theoretical material. In general, all exercises can be completed either by using physical parts or Tinkercad. This introductory task, however, should be completed with Tinkercad (just to make sure, everyone has basic understanding). 
-
-Exercise1: Use ***small breadboard*** and ***9V battery*** to power ***LED***.
