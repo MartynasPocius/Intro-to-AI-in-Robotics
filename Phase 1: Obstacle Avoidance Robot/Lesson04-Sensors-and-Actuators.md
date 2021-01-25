@@ -16,6 +16,8 @@ In our robotics series, we mostly are going to use DC and servi motors, thus, le
 ### DC motors
 
 DC motor is the most common type of motor. It has the two leads - positive and negative - and is controlled by the DC input level. The latter concept brings us to the way in which Arduino UNO communicates with this actuator - it controls the input voltage which allows speed and direction control. To better understand how this can be done in the reality, consider the following example.
+<img src = "https://lastminuteengineers.com/wp-content/uploads/arduino/Wiring-L293D-Motor-Driver-IC-with-DC-Motors-Arduino.png" width = "400">
+It is quite a common practice to use some sort of motor shield or driver when connecting more than 1 DC motor. As our robot is going to have 2 motors, we are going to use L293D motor driver (we are going to talk about them just in a moment, but for now ignore the connections).
 
 ### Servo motors
 
