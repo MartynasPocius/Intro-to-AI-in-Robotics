@@ -11,15 +11,16 @@ The microcontroller is a computing device that executes a given program and func
 
 ## Arduino Uno
 
-There are a number of mictrocontrollers available in the market differing by their architecture and the simplicity. During this course, however, we are going to focus on Arduino Uno microcontroller board (left picture at the top), as it is rather simple and popular among the hobbyist, and has one of the best price to functionality ratio.
-Arduino Uno is based on the ATmega328 microchip and has 14 digital input/output, and 6 analog input pins
+There are a number of mictrocontrollers available in the market differing by their architecture and the simplicity. During this course, however, we are going to focus on Arduino Uno microcontroller board (left picture at the top), as it is rather simple, popular among the hobbyist, and one of the best price to functionality ratios.
 
 
 ### Structure
 
-<Insert the diagram showing the structure of the board>
+<img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.electronicsmedia.info%2F2019%2F02%2F01%2Fbasic-concept-arduino-hardware-structure-arduino%2F&psig=AOvVaw3UPZ9Pg5nvPL2brR5qZkFg&ust=1611692049802000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDOrLryt-4CFQAAAAAdAAAAABAD">
 
-<Talk when to use digital and when to use analog pin>
+From the architecture perspective, Arduino Uno is based on the ATmega328 microchip and is equiped with 14 digital input/output, and 6 analog input pins. In addition, it has an USB port
+
+
 
 ## Programming
 
