@@ -18,9 +18,15 @@ There are a number of mictrocontrollers available in the market differing by the
 
 <img src = "https://learnstempedia-e872.kxcdn.com/wp-content/uploads/2018/08/Arduino-Pins-Description.png" width = "400"/>
 
-From the architecture perspective, Arduino Uno is based on the ATmega328 microchip and is equiped with 14 digital input/output, and 6 analog input pins. Although each of 14 digital pins can be used both, as an intput or output, it is a general consensus that the output components (LED, LCD, etc.) should be powered using the digital pins. The sensors, on the contrary, should be plugged into the analog pins as they have analog value. In addition, to the mentioned pins, there are a few power supply pins (3.3V, 5V, GND, Vin) - these are used to supply power to the external input or output components. Arduino UNO also has a USB port (used to program the board) and a power jack used to provide 9V. Finally, there is a reset button and a few LEDs.
+From the architecture perspective, Arduino Uno is based on the ATmega328 microchip and is equiped with 14 digital input/output, and 6 analog input pins. Although each of 14 digital pins can be used both, as an intput or output, it is a general consensus that the output components (LED, LCD, etc.) should be powered using the digital pins. The sensors, on the contrary, should be plugged into the analog pins as they have analog value. In addition, to the mentioned pins, there are a few power supply pins (3.3V, 5V, GND, Vin) - these are used to supply power to the external input or output components. 
+Arduino UNO can be powered either via USB port or external power supply. There are few ways in which the external power can be provided: we can use a 2.1mm center-positive plug and connect it to the board's power hack or we could use a battery and connect it to the power pins (Vin and GND). Although the board can withstand a voltage range from 6V to 20V, the supply of 7V and less may not be sufficient enough, while the voltages higher that 12V might cause heating.
+Finally, there is a reset button and a few LEDs.
 
 ## Programming
+
+<Insert a photo of IDE>
+
+For the programming part, Arduino uses its own language which is mainly build upon C/C++ (to be particular, a new written code undergoes some minor changes and is directly passed to C/C++ compiler). In addition, Arduino also has its own software for creating new sketches - Arduino IDE. We are not going to analyze Arduino programming too much in depth in this lesson, as it is going to be discussed further in the next lesson.
 
 ### Tinkercad environment
 
