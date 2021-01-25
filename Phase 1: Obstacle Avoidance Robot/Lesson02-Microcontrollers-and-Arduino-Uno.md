@@ -30,8 +30,8 @@ For the programming part, Arduino uses its own language which is mainly build up
 
 ### Tinkercad environment
 
-## Exercises
+In addition to the native Arduino IDE, it is possible to develop code on other environments. One of the examples of such software is Tinkercad which not only allows to write an Arduino code, but also can be used for the simple real-time circuit simulation. Therefore, we chose Tinkercad circuit simulator for the Arduino practice part. Even though, the Arduino programming is going to be covered in the next section, it is quite useful to start getting more comfortable with this software by completing a few exercises.
 
-### Exercise 
+### Exercise01
 
 ### Exercise02
