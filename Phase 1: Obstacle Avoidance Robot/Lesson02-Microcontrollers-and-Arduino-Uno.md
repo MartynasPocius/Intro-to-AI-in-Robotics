@@ -34,7 +34,7 @@ In addition to the native Arduino IDE, it is possible to develop code on other e
 
 ### Exercise01
 
-In the Tinkercad circuit simulator, create a new circuit file. After doing so, drag Arduino UNO object to the workspace and upload the following code.
+In the Tinkercad circuit simulator, create a new circuit file. After doing so, drag Arduino UNO object to the workspace, upload the following code, and have a look at the built-in LED.
 ```c
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
