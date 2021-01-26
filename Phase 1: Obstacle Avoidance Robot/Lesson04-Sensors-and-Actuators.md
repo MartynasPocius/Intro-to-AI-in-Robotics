@@ -65,7 +65,7 @@ The built-in ```<AFMotor.h>``` library shortens the code by allowing us to creat
 
 ### Servo motors
 
-<img src = "https://content.instructables.com/ORIG/FYG/SWN3/IBXMMLB3/FYGSWN3IBXMMLB3.png?auto=webp&frame=1&width=1024&fit=bounds&md=82e53a3443fd67343967a3199d2aeca0" width = "300">
+<img src = "https://content.instructables.com/ORIG/FYG/SWN3/IBXMMLB3/FYGSWN3IBXMMLB3.png?auto=webp&frame=1&width=1024&fit=bounds&md=82e53a3443fd67343967a3199d2aeca0" width = "500">
 
 
 ## Sensors
