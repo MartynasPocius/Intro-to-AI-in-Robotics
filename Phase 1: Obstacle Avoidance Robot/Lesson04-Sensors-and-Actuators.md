@@ -64,7 +64,7 @@ The built-in ```<AFMotor.h>``` library shortens the code by allowing us to creat
 
 
 ### Servo motors
-As it was mentioned earlier, servo motor is a linear actuator which provides an accurate angle control. In contrast to DC motors, servo motors have built in driver meaning that they can be sufficiently powered by Arduino UNO itself. Let's look at the following setup
+As it was mentioned earlier, servo motor is a linear actuator which provides an accurate angle control. In contrast to DC motors, servo motors have built in driver meaning that they can be sufficiently powered by Arduino UNO itself (although, we are going to use Arduino motor shield for this). Let's look at the following setup
 
 <img src = "https://csg.tinkercad.com/things/lr6LBSqFryb/t725.png?rev=1523859684531520732&s=&v=1&type=circuits" width = "500">
 
