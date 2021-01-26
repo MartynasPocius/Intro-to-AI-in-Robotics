@@ -42,14 +42,31 @@ void loop()
    digitalWrite(motorPin2, LOW);
 }
 ```
+First of all, we define the motor positive and negative pins (``` motorPin1 ``` and ```motorPin2```) and alocate them pins (digital pins 11 and 10 respectively). In the further setup section, we define both pins as ```OUPUT``` devices by using ```pinMode``` function. Finally, in the loop section, by using ```digitalWrite()``` function, we set ```motorPin1``` value at ```HIGH```, while leaving ```motorPin2``` at ```LOW```.
 
-<Here insert the code for L293D motor driver. Explain about the init processes and so on>
+If instead of using L293D motor driver, we connect motors using Arduino motor shield, the same functionality can be achieved with the following code:
+
+```c
+#include <AFMotor.h>
+AF_DCMotor motor1(1);
+AF_DCMotor motor2(2);
+
+void setup()
+{
+}
+void loop()
+{
+  motor1.run(FORWARD);
+  motor2.run(FORWARD);
+}
+```
+The built-in ```<AFMotor.h>``` library shortens the code by allowing us to create ```AF_DCMotor``` object which is particularly useful when we use more motors.
+
 
 ### Servo motors
 
-<Make a similar explanation using code example>
+<img src = "https://content.instructables.com/ORIG/FYG/SWN3/IBXMMLB3/FYGSWN3IBXMMLB3.png?auto=webp&frame=1&width=1024&fit=bounds&md=82e53a3443fd67343967a3199d2aeca0" width = "300">
 
-<Talk a bit about L293D and then about the motor shield we are going to be using. Add a separate section for people with the physical parts>
 
 ## Sensors
 
