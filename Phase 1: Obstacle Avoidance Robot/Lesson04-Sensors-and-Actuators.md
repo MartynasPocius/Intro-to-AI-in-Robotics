@@ -19,7 +19,7 @@ DC motor is the most common type of motor. It has the two leads - positive and n
 On the other hand, Arduino UNO itself cannot provide enough power supply for multiple DC motors. The power comming from the supply is instead distributed by the special kind integrated circuits, *motor drivers*. Sometimes, these motors can be combined together with a few other electrical components to make a *motor shield*. In addition to an increase in the number of actuators, the use of motor shield brings another benefit - the build-in functions makes programming process a lot easier. In our series, we are mostly going to focus on Arduino motor driver shield with 2 integrated L293D motor drivers which can power up to 4 DC motors, 2 servo and stepper motors. 
 To understand the principles of DC motors programming, let's analyse a following example *(as Tinkercad simulation software does not support Arduino motor shield, we are going to analyse L293D motor driver combination).*
 
-<img src = "https://csg.tinkercad.com/things/3ierCt4F3Uv/t725.png?rev=1520142661994824596&s=&v=1&type=circuits" width = "400">
+<img src = "https://csg.tinkercad.com/things/3ierCt4F3Uv/t725.png?rev=1520142661994824596&s=&v=1&type=circuits" width = "300">
 
 For now, let's ignore the circuitry and better analyse a following code.
 
