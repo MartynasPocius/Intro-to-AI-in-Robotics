@@ -17,11 +17,31 @@ In our robotics series, we mostly are going to use DC and servo motors, thus, le
 
 DC motor is the most common type of motor. It has the two leads - positive and negative - and is controlled by the DC input level. The latter concept brings us to the way in which Arduino UNO communicates with this actuator - it controls the input voltage which allows speed and direction control. 
 On the other hand, Arduino UNO itself cannot provide enough power supply for multiple DC motors. The power comming from the supply is instead distributed by the special kind integrated circuits, *motor drivers*. Sometimes, these motors can be combined together with a few other electrical components to make a *motor shield*. In addition to an increase in the number of actuators, the use of motor shield brings another benefit - the build-in functions makes programming process a lot easier. In our series, we are mostly going to focus on Arduino motor driver shield with 2 integrated L293D motor drivers which can power up to 4 DC motors, 2 servo and stepper motors. 
-To understand the principles of DC motors programming, let's analyse a following example *(as Tinkercad simulation software does not support Arduino motor shield, we are going to analyse L293D motor driver combination).*
+To understand the principles of DC motors programming, let's analyse a following example involving only 1 DC motor *(as Tinkercad simulation software does not support Arduino motor shield, we are going to analyse L293D motor driver combination).*
 
-<img src = "https://csg.tinkercad.com/things/3ierCt4F3Uv/t725.png?rev=1520142661994824596&s=&v=1&type=circuits" width = "300">
+<img src = "https://csg.tinkercad.com/things/3ierCt4F3Uv/t725.png?rev=1520142661994824596&s=&v=1&type=circuits" width = "500">
 
 For now, let's ignore the circuitry and better analyse a following code.
+```c
+int motorPin1 = 11;
+int motorPin2 = 10;
+
+void setup()
+{
+  //power supply
+  pinMode(13, OUTPUT);
+  digitalWrite(13,HIGH);
+  
+  pinMode(motorPin1, OUTPUT);
+  pinMode(motorPin2, OUTPUT);
+}
+
+void loop()
+{
+   digitalWrite(motorPin1, HIGH);
+   digitalWrite(motorPin2, LOW);
+}
+```
 
 <Here insert the code for L293D motor driver. Explain about the init processes and so on>
 
