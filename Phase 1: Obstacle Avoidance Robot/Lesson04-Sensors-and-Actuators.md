@@ -64,8 +64,11 @@ The built-in ```<AFMotor.h>``` library shortens the code by allowing us to creat
 
 
 ### Servo motors
+As it was mentioned earlier, servo motor is a linear actuator which provides an accurate angle control. In contrast to DC motors, servo motors have built in driver meaning that they can be sufficiently powered by Arduino UNO itself. Let's look at the following setup
 
 <img src = "https://csg.tinkercad.com/things/lr6LBSqFryb/t725.png?rev=1523859684531520732&s=&v=1&type=circuits" width = "500">
+
+As we can see, servo motor has 3 pins: positive (red, connected to 5V), negative (black, connected to GND), and signal (yellow, connected to the digital pin 9). The control principle of servo motor is quite simple.
 
 ```c
 #include <Servo.h> 
@@ -83,6 +86,7 @@ void loop(){
    delay(1000); 
 }
 ```
+We first have to import servo motor library (```<Servo.h>```) this is followed by the initiation of the signal pin (since our signal wire is connected to the digital pin 9, ```int servoPin = 9```) as well as the creation of ```myservo``` object. The pin initiation step is optional, as we could do that in the following setup block (instead of ```myservo.attach(servoPin)```, we could use ```myservo.attach(9)```), however, pin initiation at the start of program is quite a good practice for the future projects. To change the angle of the servo motor, we use ```myservo.write()``` function and specify the angle inside the brackets. Note that the angle value in the brackets acts as a position point: when we input the 90 degrees value (```myservo.write(90)```), object is going to remain in place, as 90 degrees is at 12 o'clock direction.
 
 
 ## Sensors
