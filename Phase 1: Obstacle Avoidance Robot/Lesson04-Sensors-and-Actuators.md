@@ -65,7 +65,24 @@ The built-in ```<AFMotor.h>``` library shortens the code by allowing us to creat
 
 ### Servo motors
 
-<img src = "https://www.tinkercad.com/things/5XEZArBF4Iq-powerful-bojo/editel?tenant=circuits" width = "500">
+<img src = "https://csg.tinkercad.com/things/lr6LBSqFryb/t725.png?rev=1523859684531520732&s=&v=1&type=circuits" width = "500">
+
+```c
+#include <Servo.h> 
+int servoPin = 9; 
+Servo myservo; 
+
+void setup() { 
+   myservo.attach(servoPin); 
+}
+void loop(){ 
+   myservo.write(0); 
+   delay(1000);
+  
+   myservo.write(90); 
+   delay(1000); 
+}
+```
 
 
 ## Sensors
