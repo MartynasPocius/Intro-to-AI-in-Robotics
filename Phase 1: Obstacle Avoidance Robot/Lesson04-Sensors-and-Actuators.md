@@ -187,6 +187,18 @@ The code above differs from its predecessor in a few ways. First of all, we have
 Now it's time to embed your knowledge with the following exercises. *For some of these exercises, you will need to look at the online documentation.*
 
 ### Exercise01
+**Tinkercad**
+- Replicate the circuit presented in the DC motor section and try to make a program that changes the motor speed according to the value you provided in the serial monitor.
+- (**OPTIONAL**) This time, use Keypad 4x4 object for the motor speed control. (*You are not expected to know how Keypads can be connected and controlled with Arduino, so feel free to search for online circuit diagrams*).
+
+**Additional practice for people with physical components**
+- Connect Arduino motor shield to the Arduino UNO by simply putting it on top. Then connect both of your DC motors and write code that uses serial monitor input as a value for motor speed. This time, however, use ```<AFDC_Motor.h>``` library.
 
 ### Exercise02
+**Tinkercad**
+- Connect micro servo motor to the Arduino and write a program for the following sequence of events: make sure that the servo motor is at 90 degrees position, then turn it 90 degrees to the right, wait there for 2 seconds, turn 180 degrees to the left, wait there 2 seconds, come back to the initial position and wait 4 seconds before starting a new loop. (*remember that you can create a variable in which you can store and change the position value*)
 
+**Additional practice for people with physical components**
+- Repeat the same exercise, but this time connect servo motor to the Arduino motor shield which is plugged to the Arduino UNO.
+
+### Exercise03
