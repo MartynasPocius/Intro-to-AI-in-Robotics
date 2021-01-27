@@ -1,5 +1,3 @@
 # Solutions for exercises
 
-## Exercise 1
-
-This exercise is relatively straightforward
+<The solutions are going to be released the week after the asynchronous material release>
