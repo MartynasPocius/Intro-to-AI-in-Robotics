@@ -154,10 +154,33 @@ void loop() {
 ```
 The code above does not use any external libraries. We first define the trig, echo pins, and create variables for distance and duration measurements. Then in the ```void setup()```, we state that trig pin is going to be responsible for the output sound signal (```pinMode(trigPin, OUTPUT)```), while the echo pin is going to record the received signal (```pinMode(echoPin, INPUT)```).
 To measure the distance, we first make sure that at the beginning of every loop, we aren't transmitting sound waves. Then, we send ultrasound signal (```digitalWrite(trigPin, HIGH)```) for
-10 microseconds, after which, we again turn off the trig pin. At the same time, we record the received signal using ```pulseIn``` function, assign this value to the ```duration```, and convert it into ```distance```.
-As with
+10 microseconds, after which, we again turn off the trig pin. At the same time, we record the received signal using ```pulseIn``` function, assign this value to the ```duration```, and convert it into ```distance```. To check whether or not our code works as expected, we output this data in the serial monitor.
 
+Similarly to DC motors, HC-SR04 has an external library (```<NewPing.h>```) that makes programming process a lot easier.
+```c
+#include <NewPing.h>
+
+#define trigPin 2
+#define echoPin 7
+#define maxDistance 400
+
+int distance;
+NewPing sonar(trigPin, echoPin, maxDistance);
+
+void setup()
+{
+}
+void loop()
+{
+  distance = sonar.ping()/US_ROUNDTRIP_CM;
   
+  ///Checking distance output
+  Serial.print(distance);
+  Serial.print("cm");
+  Serial.println();
+}
+```
+The code above differs from its predecessor in a few ways. First of all, we have to define the maximum operating distance (```#define maxDistance 400```) for which we picked 400 cm. You can pick practially any number you want - just make sure it is in between the physical operating limits (just keep in mind that ultrasonic sensors tend to be inaccurate at large distances). Using this defined variable and ```NewPing``` function, we then create ```sonar``` object. Finally, to measure the distance, we record distance value in milimeter using ```sonar.ping()``` and then convert it to centimeters (```US_ROUNDTRIP_CM```).
 
 ### Exercises
 
