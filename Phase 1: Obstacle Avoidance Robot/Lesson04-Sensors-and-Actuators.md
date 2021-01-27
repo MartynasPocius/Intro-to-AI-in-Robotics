@@ -110,6 +110,8 @@ As it was mentioned before, sensors is the main way of communication for any rob
     * Humidity
  * ...
  
+For this project, however, we are mostly going to focus on the ultrasonics sensors.
+
 ### Ultrasonics sensors
 
 
