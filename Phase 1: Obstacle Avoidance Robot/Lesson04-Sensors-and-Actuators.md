@@ -202,3 +202,5 @@ Now it's time to embed your knowledge with the following exercises. *For some of
 - Repeat the same exercise, but this time connect servo motor to the Arduino motor shield which is plugged to the Arduino UNO.
 
 ### Exercise03
+**Tinkercad**
+- Replicate the same circuit you did in the first exercise, but this time also connect the HC-SR04 sensor. Without using ```<NewPing.h>``` library, make a program that turn on the motors, whenever there is an object closer than 50 cm.
