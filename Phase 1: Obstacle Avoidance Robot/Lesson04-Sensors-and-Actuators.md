@@ -91,20 +91,20 @@ We first have to import servo motor library (```<Servo.h>```) this is followed b
 
 ## Sensors
 
-As it was mentioned before, sensors is the main way of communication for any robot. Overall, all sensors can be divided into the following subcategories:
+As it was mentioned before, sensors is the main way of communication for any robot. Overall, all sensors can be divided into the following subcategories (most of them are rather self explanatory):
  * Contact
     * Push button
     * Pressure sensor
  * Distance
-    * Ultrasonic sensors
-    * Infrared
-    * Laser
+    * Ultrasonic sensors (uses acoustics to measure the time between when a signal is sent and when it is received)
+    * Infrared (can also be used in communication)
+    * Laser (used over longer distances)
  * Positioning
-    * Indoor localization
+    * Indoor localization (triangulates the robot's position with a use of beacons)
     * GPS
  * Rotation
-    * Potentiometer
-    * Gyroscope
+    * Potentiometer (essentially a voltage divider)
+    * Gyroscope (measures the rate of the angular acceleration)
  * Environmental conditions
     * Light
     * Humidity
