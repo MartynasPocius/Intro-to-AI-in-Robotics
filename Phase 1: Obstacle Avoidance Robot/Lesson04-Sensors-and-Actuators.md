@@ -115,13 +115,49 @@ For this project, however, we are mostly going to focus on the ultrasonics senso
 ### Ultrasonics sensors
 
 As it was mentioned earlier, ultrasonics sensors are responsible for measuring distance to an object using ultrasonic sound waves. It works by sending a higher than hearable frequency sound wave and then measures the time between the moment of emitting soundwave and receiving its echo. It usually has a working range between 2 cm and 400 cm (it depends on the model, which in our case is going to be HC-SR04), however, these sensors are usually chosen for applications involving 2-60 cm range. For larger ranges or less structured materials, other sensors might be a better solution. 
-The way of connecting this sensor to Arduino UNO is quite straightforward
+The way of connecting this sensor to Arduino UNO is quite straightforward.
 
 <img src = "https://csg.tinkercad.com/things/f0QtxyoIE7z/t725.png?rev=1573033997297000000&s=&v=1&type=circuits" width = "500">
+
+Similarly to the actuators, we first connect VCC pin to 5V and GND to GND in the Arduino board. Trig and echo pins that are responsible for the transmitting and receiving sound signals respectively and are usually connected to the analog pins on the Arduino board. On the other hand, it is completely possible to connect HC-SR04 to the digital pins that support input devices as well. For the programming part, there are multiple ways in which we could write a code for the distance measurement.
+```c
+#define trigPin 2
+#define echoPin 7
+
+int duration, distance;
+
+void setup() {
+  //Starting serial monitor
+  Serial.begin(9600);
   
-<Insert a code>
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
+void loop() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(5);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
   
-<Example>
+  distance = (duration/2) / 29.1;
+  
+  ///Checking distance output
+  Serial.print(distance);
+  Serial.print("cm");
+  Serial.println();
+  
+  delay(250);
+}
+```
+The code above does not use any external libraries. We first define the trig, echo pins, and create variables for distance and duration measurements. Then in the ```void setup()```, we state that trig pin is going to be responsible for the output sound signal (```pinMode(trigPin, OUTPUT)```), while the echo pin is going to record the received signal (```pinMode(echoPin, INPUT)```).
+To measure the distance, we first make sure that at the beginning of every loop, we aren't transmitting sound waves. Then, we send ultrasound signal (```digitalWrite(trigPin, HIGH)```) for
+10 microseconds, after which, we again turn off the trig pin. At the same time, we record the received signal using ```pulseIn``` function, assign this value to the ```duration```, and convert it into ```distance```.
+As with
+
+  
 
 ### Exercises
 
