@@ -182,10 +182,11 @@ void loop()
 ```
 The code above differs from its predecessor in a few ways. First of all, we have to define the maximum operating distance (```#define maxDistance 400```) for which we picked 400 cm. You can pick practially any number you want - just make sure it is in between the physical operating limits (just keep in mind that ultrasonic sensors tend to be inaccurate at large distances). Using this defined variable and ```NewPing``` function, we then create ```sonar``` object. Finally, to measure the distance, we record distance value in milimeter using ```sonar.ping()``` and then convert it to centimeters (```US_ROUNDTRIP_CM```).
 
-### Exercises
+## Exercises
 
-<Use keypad to control the speed of motor>
+Now it's time to embed your knowledge with the following exercises. *For some of these exercises, you will need to look at the online documentation.*
 
-<Connect 2 DC motors and create a loop for the speed control>
+### Exercise01
 
-<Ultrasonic sensor and piezo buzzer>
+### Exercise02
+
