@@ -114,6 +114,14 @@ For this project, however, we are mostly going to focus on the ultrasonics senso
 
 ### Ultrasonics sensors
 
+As it was mentioned earlier, ultrasonics sensors are responsible for measuring distance to an object using ultrasonic sound waves. It works by sending a higher than hearable frequency sound wave and then measures the time between the moment of emitting soundwave and receiving its echo. It usually has a working range between 2 cm and 400 cm (it depends on the model, which in our case is going to be HC-SR04), however, these sensors are usually chosen for applications involving 2-60 cm range. For larger ranges or less structured materials, other sensors might be a better solution. 
+The way of connecting this sensor to Arduino UNO is quite straightforward
+
+<img src = "https://csg.tinkercad.com/things/f0QtxyoIE7z/t725.png?rev=1573033997297000000&s=&v=1&type=circuits" width = "500">
+  
+<Insert a code>
+  
+<Example>
 
 ### Exercises
 
