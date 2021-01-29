@@ -32,7 +32,8 @@ The Arduino IDE can be downloaded from the Arduino website  <a href="https://www
 
 Once you’ve got this downloaded and opened, the interface that you’ll see will look something like this. 
 
-<img src="https://user-images.githubusercontent.com/39732505/106220413-5bbc6880-61d3-11eb-8995-037a52112092.png" alt="Screenshot of Arduino IDE" width="487" height="520"> 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/39732505/106220413-5bbc6880-61d3-11eb-8995-037a52112092.png" alt="Screenshot of Arduino IDE" width="487" height="520">  </p>
  
 When the board and components are connected, we can upload the program (called a <b>sketch</b>) we want to run to the Arduino. 
 
@@ -62,20 +63,66 @@ In this lesson, we’ll show the examples using TinkerCAD, but the code will be 
 
 An Arduino sketch consists of two main functions, the `setup()` and `loop()` functions. The `void` simply means that the function does not return any information.
 
-<h4>setup() function</h4>
+<h4>void setup()</h4>
 <ul>
   <li>This is the setup function that is called at the start of the program. </li>
   <li>It runs only once</li>
-  <li>It is used to initialize the pin modes and start the serial communication (We’ll have a look at this in more detail)</li>
+  <li>It is used to initialize the pin modes, variables, start the serial communication, start using libraries, etc. </li>
 </ul>
 
 You must always have the setup function in your code regardless of whether there is anything to execute inside this. 
 
-<h4>loop() function</h4>
+<h4>void loop()</h4>
 <ul>
   <li>This function is executed after the setup() function</li>
   <li>It repeats (loops, as suggested by the name) continuously, until the Arduino board is switched off or reset</li>
   <li>This is where the main bulk of the code will go</li>
 </ul>
 
+<h3>Syntax essentials</h3>
+
+The code for a function goes inside the curly brackets/braces: `{` and `}`. 
+
+Each statement (line of code) must be terminated by a semicolon `;`. 
+
+You can add single-line comments using `//` and multi-line comments by starting with `/*` and ending with `*/`
+
+<h4>Programming basics</h4>
+
+If you've done programming before, you will find that the data types, variables and operators are identical or very similar to what you have seen before. While most of these will be introduced through examples, you can learn more about these  <a href="https://www.tutorialspoint.com/arduino/arduino_data_types.htm" target="_blank">here</a>. 
+
+<h2>Controls and loops</h2>
+
+<h3>Control structures</h3>
+
+
+```c
+if (expression) {
+  statements;
+  }
+```
+
+```c
+if (expression) {
+  statements;
+ }
+else {
+  more statements;
+}
+```
+
+<h3>Loops</h3>
+
+```c
+while (expression) {
+  statements;
+  }
+```
+
+
+```c
+for (initialize; control; increment or decrement) {
+  statements;
+  }
+```
 
