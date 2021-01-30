@@ -2,6 +2,13 @@
 
 Welcome to the "Introduction to AI in Robotics" tutorial series!
 
+## Media
+
+All assynchronous material can be found here, while the live sessions are going to be uploaded into societie's YouTube Channel ([UCL Artificial Intelligence Society](https://www.youtube.com/channel/UC-5Whp878nPjOqKaL0tsDoA)).
+
+Remember to check our Facebook channel for the link of the live session ([AISoc.ucl](https://www.facebook.com/AISoc.ucl)).
+
+
 ## Syllabus
 
 1. Phase 1: Obstacle Avoidance Robot
@@ -32,3 +39,4 @@ Welcome to the "Introduction to AI in Robotics" tutorial series!
 In the normal setting, the tutorial series would require physical components. Due to the current pandemic situation, however, learners without bot kits are not going to be disadvantaged, as the practical part for the Phases 1-2 can be completed with Tinkercad circuit simulator. 
 Although, having physical kits are encouraged.
 
+## Software
