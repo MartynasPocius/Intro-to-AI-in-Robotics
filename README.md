@@ -36,7 +36,9 @@ Remember to check our Facebook channel for the link of the live session ([AISoc.
 
 ## Equipment
 
-In the normal setting, the tutorial series would require physical components. Due to the current pandemic situation, however, learners without bot kits are not going to be disadvantaged, as the practical part for the Phases 1-2 can be completed with Tinkercad circuit simulator. 
-Although, having physical kits are encouraged.
+In the normal setting, the tutorial series would require physical components. However, due to the current pandemic situation, learners without bot kits are not going to be disadvantaged, as the practical part for the Phases 1-2 can be completed with Tinkercad circuit simulator. 
+Although, having physical kits is encouraged.
 
 ## Software
+
+There are two pieces of software that are mainly going to be used throughout the series - [Tinkercad circuit simulator](https://www.tinkercad.com/) and [Webots](https://cyberbotics.com).
