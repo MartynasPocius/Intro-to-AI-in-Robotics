@@ -12,7 +12,7 @@ Welcome to the "Introduction to AI in Robotics" tutorial series!
    - Lesson : Putting everything together
 2. Phase 2: Maze solving Robot
 3. Phase 3: Introduction to Webots simulation software
-4. Phases 4-7: Webots: Project Breakdown
+4. Phases 4-5: Webots: Project Breakdown
 
 ## Equipment
 
@@ -27,7 +27,7 @@ Although, having physical kits are encouraged.
 | Additional material release | 8 Feb |
 | Live session for Phase 1 challenge + Phase 2 material release | 15 Feb |
 | Live session for Phase 2 challenge + Phase 3 material release | 22 Feb |
-| Live session for Phase 3 + Phase 4 material release | 8 Mar |
-| Live session for Phase 4 + Phase 5 material release | 15 Mar |
-| Live session for Phase 5 | 22 Mar |
+| Live session for Phase 3 challenge + Phase 4 material release | 8 Mar |
+| Live session for Phase 4 challenge + Phase 5 material release | 15 Mar |
+| Live session for Phase 5 challenge | 22 Mar |
 
