@@ -98,16 +98,18 @@ If you've done programming before, you will find that the data types, variables 
 
 ```c
 if (expression) {
-  statements;
+  statement 1;
+  statement 2;
   }
 ```
 
 ```c
 if (expression) {
-  statements;
+  statement 1;
+  statement 2;
  }
 else {
-  more statements;
+  statement 3;
 }
 ```
 
@@ -115,15 +117,20 @@ else {
 
 ```c
 while (expression) {
-  statements;
+  statement 1;
+  statement 2;
   }
 ```
 
 
 ```c
 for (initialize; control; increment or decrement) {
-  statements;
+  statement 1;
+  statement 2;
   }
 ```
 
 <h2>Input/Outputs</h2>
+
+
+
