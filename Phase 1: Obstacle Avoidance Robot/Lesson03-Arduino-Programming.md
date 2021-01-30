@@ -139,8 +139,8 @@ The first thing that needs to be done in when writing the program once the physi
 The general syntax for this is as follows. 
 
 ```c
-  void setup() {
-  pinMode(pin, mode)
+void setup() {
+pinMode(pin, mode)
   }
 ```
 Here, the `pin` is the number of the pin for which we are setting the mode. The `mode` can either be INPUT, OUTPUT, or INPUT_PULLUP. 
@@ -162,6 +162,8 @@ pinMode(LED_BUILTIN, OUTPUT);
 
 In this code, the pin we are initialising is the `LED_BUILTIN` which is an LED already built in the Arduino, to the OUTPUT mode. 
 
+The value of an OUTPUT pin can be set to `HIGH` or `LOW` which corresponds to the voltage of 5V (or 3.3V depending on the Arduino board) or 0V (i.e. ground) respectively. 
+
 If instead we want to add an LED component to the circuit (with a 1K resistor to prevent a short circuit), we can connect these components manually to the Arduino. The simulation for this in TinkerCAD connects these components directly (you can find this in Starters -> Arduino -> Blink), however you can also connect them using a breadboard using what you learnt in Lesson 01. 
 
 The LED in this case is connect to pin `13`, so the above `setup()` function for this circuit will become:
@@ -174,9 +176,29 @@ pinMode(13, OUTPUT);
 
 <h3>digitalWrite() function</h3>
 
-<h3>Time</h3>
+Now we can have a look at the `loop()` function for the blinking LED code. 
 
-<h3>analogRead() function</h3>
+```c
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  
+  delay(500);                       
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(500);                       
+}
+```
 
-<h3>analogRead() function</h3>
+This first thing in this loop is the `digitalWrite()` function which is used to change the value of a digital pin to either HIGH or LOW. In this function we first specify the pin number (here it is the inbuilt LED instead of a pin number) and secondly, whether we want to set this value to HIGH or LOW (corresponding to the voltage as explained above). 
+
+The general syntax of this is `digitalWrite(pin, value)`. 
+
+The second function used in this program is the `delay()` function. This tells the program to wait for a specified period of time as an **integer** in **milliseconds** before moving to the next statement (line of code).
+
+If we want to use an even shorter period of time, there is also a `delayMicroseconds()` function which takes an **integer** in **microseconds**. 
+
+1 second = 1000 milliseconds = 1000000 microseconds
+
+
+
+
+
 
