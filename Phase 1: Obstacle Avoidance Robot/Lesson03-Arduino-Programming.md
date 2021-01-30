@@ -132,7 +132,7 @@ for (initialize; control; increment or decrement) {
 
 <h2>Input/Outputs</h2>
 
-<h3>Initialising pin modes</3>
+<h3>Initialising pin modes</h3>
 
 The first thing that needs to be done in when writing the program once the physical parts, or simulation parts in TinkerCAD have been connected, is to intialise the pins of the Arduino that are being used as inputs or outputs. This is done inside the `setup()` function. 
 
