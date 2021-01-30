@@ -202,4 +202,4 @@ Now it's time to embed your knowledge with the following exercises. *For some of
 
 ### Exercise03
 **Tinkercad**
-- Replicate the same circuit you did in the first exercise, but this time also connect the HC-SR04 sensor. Without using ```<NewPing.h>``` library, make a program that turn on the motors, whenever there is an object closer than 50 cm.
+- Replicate the same circuit you did in the first exercise, but this time also connect the HC-SR04 sensor. Without using ```<NewPing.h>``` library, make a program that turn on the motors, whenever there is an object closer than 50 cm. (Use breadboard for connecting HC-SR04 to Arduino).
