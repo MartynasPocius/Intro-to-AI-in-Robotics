@@ -188,7 +188,7 @@ Now it's time to embed your knowledge with the following exercises. *For some of
 ### Exercise01
 **Tinkercad**
 - Replicate the circuit presented in the DC motor section (this time change the ```motorSpeed``` pin to 9) and try to make a program that changes the motor speed according to the value you provided in the serial monitor. (Search for Arduino Serial documentation).
-- (**OPTIONAL**) This time, use Keypad 4x4 object for the motor speed control. (*You are not expected to know how Keypads can be connected and controlled with Arduino, so feel free to search for online circuit diagrams*).
+
 
 **Additional practice for people with physical components**
 - Connect Arduino motor shield to the Arduino UNO by simply putting it on top. Then connect both of your DC motors and write code that uses serial monitor input as a value for motor speed. This time, however, use ```<AFDC_Motor.h>``` library.
