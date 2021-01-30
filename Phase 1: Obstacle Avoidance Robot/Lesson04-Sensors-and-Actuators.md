@@ -191,7 +191,7 @@ Now it's time to embed your knowledge with the following exercises. *For some of
 
 
 **Additional practice for people with physical components**
-- Connect Arduino motor shield to the Arduino UNO by simply putting it on top. Then connect both of your DC motors and write code that uses serial monitor input as a value for motor speed. This time, however, use ```<AFDC_Motor.h>``` library.
+- Connect Arduino motor shield to the Arduino UNO by simply putting it on top. Then connect both of your DC motors and write code that uses serial monitor input as a value for motor speed. This time, however, use ```<AFMotor.h>``` library.
 
 ### Exercise02
 **Tinkercad**
