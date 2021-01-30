@@ -3,21 +3,6 @@
 <h2> Introduction </h2>
 
 In this lesson, we'll have a look at how to write the program for the Arduino board using both the Arduino IDE (Integrated Development Environment) and TinkerCAD. 
-The lesson will cover: 
-<ul>
-  <li> an overview of both interfaces </li>
-  <ul>
-    <li> Arduino IDE </li>
-    <li>TinkerCAD</li>
-  </ul>
-<li> the basic syntax of the code </li>
-  <ul>
-    <li>setup() and loop() functions</li>
-    <li>some useful programming tips</li>
-    <li>defining pins</li>
-  </ul>
-<li> explanation of simple examples with more to try</li>
-</ul>
 
 <h2>An overview of both interfaces</h2>
 As mentioned at the end of the previous lesson, Arduino programming is based on the the C/C++ language, however no prior experience of these languages is required to learn how to program an Arduino.
