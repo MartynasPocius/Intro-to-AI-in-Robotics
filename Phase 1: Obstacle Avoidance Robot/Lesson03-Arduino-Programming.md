@@ -132,5 +132,51 @@ for (initialize; control; increment or decrement) {
 
 <h2>Input/Outputs</h2>
 
+<h3>Initialising pin modes</3>
 
+The first thing that needs to be done in when writing the program once the physical parts, or simulation parts in TinkerCAD have been connected, is to intialise the pins of the Arduino that are being used as inputs or outputs. This is done inside the `setup()` function. 
+
+The general syntax for this is as follows. 
+
+```c
+  void setup() {
+  pinMode(pin, mode)
+  }
+```
+Here, the `pin` is the number of the pin for which we are setting the mode. The `mode` can either be INPUT, OUTPUT, or INPUT_PULLUP. 
+
+- Arduino pins are configured as inputs, so it is not necessary to explicitly define them as inputs. Pins in this state are referred to being in `high-impedance` states in which they take a very small amount of current from the circuit and thus require very little current to move the input state from one state to another. 
+- If a pin is configured as an output then it is in a `low-impedance` state in which it provides a current (of up to 40 mA for Atmega pins) to other circuits, which as we can see in the example, allows us to turn on a bright LED.
+- It is important to note that in order to prevent a circuit/device to draw maximum current from an output pin and thus short circuit the pin, a resistor (usually with resistance of 470Ω or 1KΩ) is connected in series with the devices. Short circuits will usually result in the pin that was whole no longer functioning however signficant current being drawn these pins can also damage the entire Atmega cip.
+- We won't go into much detail about the INPUT_PULLUP state but it essentially is used to invert the behaviour of the INPUT mode (swapping the HIGH and LOW).
+
+To demonstrate this, we can take the example of the blinking LED that was shown in Exercise 01 of Lesson 02. 
+
+The `setup()` function for this program was as follows:
+
+```c
+void setup() {
+pinMode(LED_BUILTIN, OUTPUT);
+}
+```
+
+In this code, the pin we are initialising is the `LED_BUILTIN` which is an LED already built in the Arduino, to the OUTPUT mode. 
+
+If instead we want to add an LED component to the circuit (with a 1K resistor to prevent a short circuit), we can connect these components manually to the Arduino. The simulation for this in TinkerCAD connects these components directly (you can find this in Starters -> Arduino -> Blink), however you can also connect them using a breadboard using what you learnt in Lesson 01. 
+
+The LED in this case is connect to pin `13`, so the above `setup()` function for this circuit will become:
+
+```c
+void setup() {
+pinMode(13, OUTPUT);
+}
+```
+
+<h3>digitalWrite() function</h3>
+
+<h3>Time</h3>
+
+<h3>analogRead() function</h3>
+
+<h3>analogRead() function</h3>
 
