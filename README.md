@@ -14,11 +14,6 @@ Welcome to the "Introduction to AI in Robotics" tutorial series!
 3. Phase 3: Introduction to Webots simulation software
 4. Phases 4-5: Webots: Project Breakdown
 
-## Equipment
-
-In the normal setting, the tutorial series would require physical components. Due to the current pandemic situation, however, learners without bot kits are not going to be disadvantaged, as the practical part for the Phases 1-2 can be completed with Tinkercad circuit simulator. 
-Although, having physical kits are encouraged.
-
 ## Timeline
 
 | Title | Date |
@@ -30,4 +25,10 @@ Although, having physical kits are encouraged.
 | Live session for Phase 3 challenge + Phase 4 material release | 8 Mar |
 | Live session for Phase 4 challenge + Phase 5 material release | 15 Mar |
 | Live session for Phase 5 challenge | 22 Mar |
+
+
+## Equipment
+
+In the normal setting, the tutorial series would require physical components. Due to the current pandemic situation, however, learners without bot kits are not going to be disadvantaged, as the practical part for the Phases 1-2 can be completed with Tinkercad circuit simulator. 
+Although, having physical kits are encouraged.
 
