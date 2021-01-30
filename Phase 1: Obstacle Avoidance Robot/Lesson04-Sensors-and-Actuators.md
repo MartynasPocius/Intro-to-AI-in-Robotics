@@ -195,7 +195,7 @@ Now it's time to embed your knowledge with the following exercises. *For some of
 
 ### Exercise02
 **Tinkercad**
-- Connect micro servo motor to the Arduino and write a program for the following sequence of events: make sure that the servo motor is at 90 degrees position, then turn it 90 degrees to the right, wait there for 2 seconds, turn 180 degrees to the left, wait there 2 seconds, come back to the initial position and wait 4 seconds before starting a new loop. (*remember that you can create a variable in which you can store and change the position value*)
+- Connect micro servo motor to the Arduino and write a program for the following sequence of events: make sure that the servo motor is at 90 degrees position, then turn it 90 degrees to the right, wait there for 2 seconds, turn 180 degrees to the left, wait there 2 seconds, come back to the initial position and wait 4 seconds before starting a new loop.
 
 **Additional practice for people with physical components**
 - Repeat the same exercise, but this time connect servo motor to the Arduino motor shield which is plugged to the Arduino UNO.
