@@ -26,7 +26,7 @@ Remember to check our Facebook channel for the link of the live session ([AISoc.
 | Title | Date |
 | --- | --- |
 | Phase 1 material release | 1 Feb |
-| Additional material release | 8 Feb |
+| Additional material for Phase 1 release | 8 Feb |
 | Live session for Phase 1 challenge + Phase 2 material release | 15 Feb |
 | Live session for Phase 2 challenge + Phase 3 material release | 22 Feb |
 | Live session for Phase 3 challenge + Phase 4 material release | 8 Mar |
