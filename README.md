@@ -1,4 +1,4 @@
-# Intro-to-AI-in-Robotics
+# Introduction-to-AI-in-Robotics
 
 Welcome to the "Introduction to AI in Robotics" tutorial series!
 
