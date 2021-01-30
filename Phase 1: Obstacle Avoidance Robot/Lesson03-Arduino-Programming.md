@@ -20,7 +20,7 @@ The lesson will cover:
 </ul>
 
 <h2>An overview of both interfaces</h2>
-As mentioned at the end of the previous lesson, Arduino programming is based on the the C/C++ language, however you don’t need any prior experience of this to learn how to program an Arduino.
+As mentioned at the end of the previous lesson, Arduino programming is based on the the C/C++ language, however no prior experience of these languages is required to learn how to program an Arduino.
 
 To start off, we’ll look at the Arduino IDE interface and how it’s replicated in TinkerCAD.  
 
@@ -39,7 +39,7 @@ When the board and components are connected, we can upload the program (called a
 
 As you can see in the figure above, the IDE automatically adds the main structure of the program of the `setup` and `loop` functions. These are explained in more detail later. 
 
-The labelled buttons are mainly self-explanatory. Some that may not be as obvious are the serial monitor and the verify buttons.  
+The labelled buttons are mainly self-explanatory, with the Verify button checking the code for errors, the Upload button compiling the code and uploading it to the configured board, the New button creating a new sketch, the Open button presenting a menu of all sketches in your sketchbook, the Save button saving your sketch and finally the Serial Monitor button which displays serial sent from the Arduino or Genuino board over USB or serial connector. 
 
 <h3>TinkerCAD</h3>
 
@@ -61,7 +61,7 @@ In this lesson, we’ll show the examples using TinkerCAD, but the code will be 
 
 <h3>setup() and loop() functions</h3>
 
-An Arduino sketch consists of two main functions, the `setup()` and `loop()` functions. The `void` simply means that the function does not return any information.
+An Arduino sketch consists of two main functions, the `setup()` and `loop()` functions. The `void` keyword simply means that the function does not return any information.
 
 <h4>void setup()</h4>
 <ul>
@@ -81,7 +81,7 @@ You must always have the setup function in your code regardless of whether there
 
 <h3>Syntax essentials</h3>
 
-The code for a function goes inside the curly brackets/braces: `{` and `}`. 
+The code for a function goes inside the curly brackets: `{` and `}`. 
 
 Each statement (line of code) must be terminated by a semicolon `;`. 
 
@@ -94,7 +94,7 @@ If you've done programming before, you will find that the data types, variables 
 <h2>Controls and loops</h2>
 
 <h3>Control structures</h3>
-
+Similar to other programming languages, the Arduino programming language contains selection constructions such as the if statement as well as the if...else conditional statement. The syntax for these can be seen below:
 
 ```c
 if (expression) {
@@ -114,6 +114,7 @@ else {
 ```
 
 <h3>Loops</h3>
+In addition, the programming language also contains both definite and indefinite iteration in the form of while loops and for loops respectively. Where while loops continue to be executed until the expression equates to being false, for loops instead are only executed a certain number of times.
 
 ```c
 while (expression) {
@@ -147,7 +148,7 @@ Here, the `pin` is the number of the pin for which we are setting the mode. The 
 
 - Arduino pins are configured as inputs, so it is not necessary to explicitly define them as inputs. Pins in this state are referred to being in `high-impedance` states in which they take a very small amount of current from the circuit and thus require very little current to move the input state from one state to another. 
 - If a pin is configured as an output then it is in a `low-impedance` state in which it provides a current (of up to 40 mA for Atmega pins) to other circuits, which as we can see in the example, allows us to turn on a bright LED.
-- It is important to note that in order to prevent a circuit/device to draw maximum current from an output pin and thus short circuit the pin, a resistor (usually with resistance of 470Ω or 1KΩ) is connected in series with the devices. Short circuits will usually result in the pin that was whole no longer functioning however signficant current being drawn these pins can also damage the entire Atmega cip.
+- It is important to note that in order to prevent a circuit/device to draw maximum current from an output pin and thus result in a short circuit, a resistor (usually with resistance of 470Ω or 1KΩ) is connected in series with the devices. Short circuits will usually result in the pin no longer functioning and signficant current being drawn through these pins can also damage the entire Atmega cip.
 - We won't go into much detail about the INPUT_PULLUP state but it essentially is used to invert the behaviour of the INPUT mode (swapping the HIGH and LOW).
 
 To demonstrate this, we can take the example of the blinking LED that was shown in Exercise 01 of Lesson 02. 
