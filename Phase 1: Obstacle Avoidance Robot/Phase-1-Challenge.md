@@ -15,4 +15,4 @@ Next week, we are going to release additional tips for this challenge, but for n
 This challenge can also be completed using the Tinkercad software in a following way:
 * Connect 2 DC motors to L293D motor driver and assume that one of them is left motor, while the other one is right.
 * Although you cannot physically record the values to the right and left distances, as you cannot attach ultrasonic sensor on top of the servo motor in the circuit simulator, however, you could write a program that replicates a similar logic (whenever, there is a close object, servo motor turns to the right and left, and the sensor records the distance data).
-* Whenever you add a new object to the Tinkercad circuit simulator, the code in the editor is updated. **Try not to look at it**.
+* Whenever you add a new object to the Tinkercad circuit simulator, the code in the editor is updated.
