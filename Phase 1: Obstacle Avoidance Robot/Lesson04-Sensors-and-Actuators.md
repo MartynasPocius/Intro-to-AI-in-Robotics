@@ -25,13 +25,12 @@ For now, let's ignore the circuitry and better analyse a following code.
 ```c
 int motorPin1 = 11;
 int motorPin2 = 10;
+int motorSpeed = 13;
 
 void setup()
 {
-  //power supply
-  pinMode(13, OUTPUT);
-  digitalWrite(13,HIGH);
-  
+  pinMode(motorSpeed, OUTPUT);
+  digitalWrite(motorSpeed, HIGH)
   pinMode(motorPin1, OUTPUT);
   pinMode(motorPin2, OUTPUT);
 }
@@ -42,7 +41,7 @@ void loop()
    digitalWrite(motorPin2, LOW);
 }
 ```
-First of all, we define the motor positive and negative pins (``` motorPin1 ``` and ```motorPin2```) and alocate them pins (digital pins 11 and 10 respectively). In the further setup section, we define both pins as ```OUPUT``` devices by using ```pinMode``` function. Finally, in the loop section, by using ```digitalWrite()``` function, we set ```motorPin1``` value at ```HIGH```, while leaving ```motorPin2``` at ```LOW```.
+First of all, we define motor positive and negative pins (``` motorPin1 ``` and ```motorPin2```) and alocate them to digital pins 11 and 10. In addition, we define ```motorSpeed``` variable responsible for the voltage across the motor control (*just for now, we'll assume that the speed of the motor is constant*). In the further ```setup()``` section, we define all three pins as ```OUPUT``` devices and set value for the motor speed to ```HIGH```(by definition, L293D is going to output the maximum voltage). Finally, in the loop section, by using ```digitalWrite()``` function, we set ```motorPin1``` value at ```HIGH```, while leaving ```motorPin2``` at ```LOW```(to ensure flow across the motor).
 
 If instead of using L293D motor driver, we connect motors using Arduino motor shield, the same functionality can be achieved with the following code:
 
@@ -188,7 +187,7 @@ Now it's time to embed your knowledge with the following exercises. *For some of
 
 ### Exercise01
 **Tinkercad**
-- Replicate the circuit presented in the DC motor section and try to make a program that changes the motor speed according to the value you provided in the serial monitor.
+- Replicate the circuit presented in the DC motor section (this time change the ```motorSpeed``` pin to 9) and try to make a program that changes the motor speed according to the value you provided in the serial monitor. (Search for Arduino Serial documentation).
 - (**OPTIONAL**) This time, use Keypad 4x4 object for the motor speed control. (*You are not expected to know how Keypads can be connected and controlled with Arduino, so feel free to search for online circuit diagrams*).
 
 **Additional practice for people with physical components**
