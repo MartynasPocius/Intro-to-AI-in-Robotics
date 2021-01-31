@@ -39,6 +39,19 @@ Remember to check our Facebook channel for the link of the live session ([AISoc.
 In the normal setting, the tutorial series would require physical components. However, due to the current pandemic situation, learners without bot kits are not going to be disadvantaged, as the practical part for the Phases 1-2 can be completed with Tinkercad circuit simulator. 
 Although, having physical kits is encouraged.
 
+| Part | Price | Link |
+| --- | --- | --- |
+| Arduino UNO | 19.15 | https://www.robotshop.com/uk/arduino-uno-rev3-smd.html |
+| L293D motor shield | 8.30 | https://www.robotshop.com/uk/l293d-motor-drive-shield.html |
+| 2WD robot chassis | 14.50 | https://www.robotshop.com/uk/2wd-beginner-robot-chassis-v2-red-old.html |
+| HC-SR04 ultrasonic sensor | 1.39 | https://www.robotshop.com/uk/hc-sr04-ultrasonic-range-finder-tys.html |
+| 9g micro servo motor | 3.29 | https://www.robotshop.com/uk/9g-micro-servo-motor-4-8v.html |
+| Battery holder (4xAA) | 0.54 | https://www.robotshop.com/uk/battery-holder-4xaa-flat.html |
+| 4xAA batteries (any generic ones) | 1.62 | https://www.robotshop.com/uk/tenergy-15v-alkaline-aa-batteries-4pk.html |
+| Dual female Jumper wires | 1.85 | https://www.robotshop.com/uk/40-pin-dual-female-splittable-jumper-wire-30cm.html |
+| 2 IR sensors | 2x3.59 | https://www.robotshop.com/uk/infrared-reflective-sensor.html |
+| Ultrasonic sensor holder (optional) | 1.80 | https://www.robotshop.com/uk/jsumo-ultrasonic-sensor-bracket.html |
+
 ## Software
 
 There are two pieces of software that are mainly going to be used throughout the series - [Tinkercad circuit simulator](https://www.tinkercad.com/) and [Webots](https://cyberbotics.com).
