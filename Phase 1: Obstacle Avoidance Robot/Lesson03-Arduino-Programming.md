@@ -83,8 +83,8 @@ To declare a variable:
 ```c
 type name = value; // general syntax
 
-int count = 5 // define a variable named 'count' as an integer with value 5
-float num = 5.67 // define a floating point number (decimal point)
+int count = 5; // define a variable named 'count' as an integer with value 5
+float num = 5.67; // define a floating point number (decimal point)
 ```
 
 You will commonly see pin numbers being defined as `int` variables at the start of programs, making it easier to remember what component is connected to each pin. 
