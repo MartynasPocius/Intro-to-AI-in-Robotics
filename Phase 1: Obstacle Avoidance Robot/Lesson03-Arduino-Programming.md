@@ -139,7 +139,7 @@ The general syntax for this is as follows.
 
 ```c
 void setup() {
-pinMode(pin, mode)
+pinMode(pin, mode);
   }
 ```
 Here, the `pin` is the number of the pin for which we are setting the mode. The `mode` can either be INPUT, OUTPUT, or INPUT_PULLUP. 
