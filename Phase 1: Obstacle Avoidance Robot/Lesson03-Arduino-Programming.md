@@ -41,7 +41,7 @@ In order to write code in TinkerCAD, you must first have the required components
 In this lesson, we’ll show the examples using TinkerCAD, but the code will be very similar if using physical parts (you may need to change pin numbers depending on the individual setup, but the main logic of the code will remain the same). 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/39732505/106389757-02c02080-63dd-11eb-8636-80bbcfbabf26.png" width="1037" height="658">  </p>
+<img src="https://user-images.githubusercontent.com/39732505/106389820-55014180-63dd-11eb-9720-6d3a813865b0.png" width="1037" height="658">  </p>
 
 <h2>The basic syntax of the code</h2>
 
@@ -77,6 +77,17 @@ You can add single-line comments using `//` and multi-line comments by starting 
 <h4>Programming basics</h4>
 
 If you've done programming before, you will find that the data types, variables and operators are identical or very similar to what you have seen before. While most of these will be introduced through examples, you can learn more about these  <a href="https://www.tutorialspoint.com/arduino/arduino_data_types.htm" target="_blank">here</a>. 
+
+To declare a variable:
+
+```c
+type name = value; // general syntax
+
+int count = 5 // define a variable named 'count' as an integer with value 5
+float num = 5.67 // define a floating point number (decimal point)
+```
+
+You will commonly see pin numbers being defined as `int` variables at the start of programs, making it easier to remember what component is connected to each pin. 
 
 <h2>Controls and loops</h2>
 
