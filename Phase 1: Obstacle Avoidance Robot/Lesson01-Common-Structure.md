@@ -9,9 +9,8 @@
 At the first glance, both of these robots seem to have more differences than similarities. However, it isn't the right assumption - every robot, no matter the complexity or application, have common structural characteristics, components and operate in quite similar manner.
 
 ## Common components and structure
-<Make a diagram showing the relationship between these things>
 
-Every robot needs a ***platform*** or other structural unit that becomes the basis for the other components. We usually want our robot to move in space which is achieved with a help of ***actuators***. As it moves through space, robot has to have ***sensors*** that analyze the surrounding environment and send data to the ***microcontroller*** which then processes signal and makes a decision about the robot's next step. Every component has to have some kind of source of energy or ***power unit***. At some cases, it is quite useful to have ***motor controller*** which connects all components to the power supply making the control of the system a lot easier.
+Every robot needs a ***platform*** or another structural unit that becomes the basis for the other components. We usually want our robot to move in space which is achieved with a help of ***actuators***. As it moves through space, the robot has to have ***sensors*** that analyze the surrounding environment and send data to the ***microcontroller*** which then processes the signal and makes a decision about the robot's next step. Every component has to have some kind of source of energy or ***power unit***. In some cases, it is quite useful to have ***motor controller*** which connects all components to the power supply making the control of the system a lot easier.
 
 ## Our bot
 
@@ -28,13 +27,13 @@ Let's now look at our parts list.
 | IR sensor | Sensor | Uses IR to measure the distance from the object |
 | 9V battery | Power unit | Provides power to our bot |
 
-There are going to be separate lessons that are going to cover some of the types of components (microcontroller, actuators and motor controller, sensors) more in depth. Before moving on to other lessons, however, we should first cover another important component that hasn't been mentioned before - ***breadboard***.
+There are going to be separate lessons that are going to cover some of the types of components (microcontroller, actuators and motor controller, sensors) more in-depth. Before moving on to other lessons, however, we should first cover another important component that hasn't been mentioned before - ***breadboard***.
 
 ## Breadboard
 
-As we start building the prototype for robot or any other electrical device in general, we tend to make a lot of mistakes. Therefore, connecting electrical components by soldering might not be our go to option at the start. 
+As we start building the prototype for the robot or any other electrical device in general, we tend to make a lot of mistakes. Therefore, connecting electrical components by soldering might not be our go-to option at the start. 
 
-***Breadboard*** is a special board perfectly suited for prototyping. It is covered with a grid of pins that have a row of electrically continuos holes connected to it. Without going much in-depth, let's now look into the layout of breadboard.
+***Breadboard*** is a special board perfectly suited for prototyping. It is covered with a grid of pins that have a row of electrically continiuos holes connected to it. Without going much in-depth, let's now look into the layout of the breadboard.
 
 ![Image of breadboard layout](https://www.tweaking4all.com/wp-content/uploads/2013/12/basic_breadboard_layout.png)
 
