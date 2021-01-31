@@ -41,7 +41,8 @@ In order to write code in TinkerCAD, you must first have the required components
 In this lesson, we’ll show the examples using TinkerCAD, but the code will be very similar if using physical parts (you may need to change pin numbers depending on the individual setup, but the main logic of the code will remain the same). 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/39732505/106389668-6d249100-63dc-11eb-9b99-3babdf843639.png" width="1037" height="662">  </p>
+<img src="https://user-images.githubusercontent.com/39732505/106389757-02c02080-63dd-11eb-8636-80bbcfbabf26.png" width="1037" height="658">  </p>
+
 <h2>The basic syntax of the code</h2>
 
 
