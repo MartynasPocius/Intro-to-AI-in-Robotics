@@ -8,6 +8,7 @@ All assynchronous material can be found here, while the live sessions are going 
 
 Remember to check our Facebook channel for the link of the live session ([AISoc.ucl](https://www.facebook.com/AISoc.ucl)).
 
+If you have any questions, you can send them to us on ([Discord](https://discord.gg/KSUZuQx)). 
 
 ## Syllabus
 
