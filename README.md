@@ -4,7 +4,7 @@ Welcome to the "Introduction to AI in Robotics" tutorial series!
 
 ## Media
 
-All assynchronous material can be found here, while the live sessions are going to be uploaded into societie's YouTube Channel ([UCL Artificial Intelligence Society](https://www.youtube.com/channel/UC-5Whp878nPjOqKaL0tsDoA)).
+All assynchronous material can be found here, while the live sessions are going to be uploaded into society's YouTube Channel ([UCL Artificial Intelligence Society](https://www.youtube.com/channel/UC-5Whp878nPjOqKaL0tsDoA)).
 
 Remember to check our Facebook channel for the link of the live session ([AISoc.ucl](https://www.facebook.com/AISoc.ucl)).
 
