@@ -53,6 +53,23 @@ Although, having physical kits is encouraged.
 | 2 IR sensors | 2x3.59 | https://www.robotshop.com/uk/infrared-reflective-sensor.html |
 | Ultrasonic sensor holder (optional) | 1.80 | https://www.robotshop.com/uk/jsumo-ultrasonic-sensor-bracket.html |
 
+### Alternative Parts
+
+As some of you have noted, there are some parts in the list that might not be available. Therefore, we are providing you with a list of alternative parts and suppliers that are going to be updated on a daily basis. 
+
+If you have found a more reasonable option (for example, your local supplier with shorter delivery time, etc.), but don't know whether that part is suitable, you can post your question on [Discord](https://discord.gg/KSUZuQx) under Robotics Tutorial Series channel. We are more than happy to help you!
+
+ | Part | Supplier (price) |
+| --- | --- |
+| Arduino UNO | [Cool Components](https://coolcomponents.co.uk/collections/arduino-original-boards/products/arduino-uno-revision-3) (19.19), [Amazon](https://www.amazon.co.uk/Arduino-A000066-ARDUINO-UNO-REV3/dp/B008GRTSV6/ref=sr_1_3?dchild=1&keywords=arduino+uno&qid=1613470004&sr=8-3) (20.40) |
+| Motor shield* | [Robo Savvy](https://robosavvy.com/store/dagu-commotion-motor-driver-shield.html) (22.62), [Amazon](https://www.amazon.co.uk/Hobby-Components-Ltd-Shield-Electronics/dp/B00D86NZBY) (5.88), [Cool Components](https://coolcomponents.co.uk/collections/arduino-shields/products/arduino-motor-shield-rev3 ) (25.19) |
+| Ultrasonic sensor | [Robo Savvy](https://robosavvy.com/store/ultrasonic-distance-sensor-hc-sr04.html) (3.10), [Amazon](https://www.amazon.co.uk/HILABEE-Ultrasonic-Distance-Measuring-Transducer/dp/B07SKT2P5F/ref=sr_1_8?crid=3B1PKC297AQ7W&dchild=1&keywords=hc-sr04+ultrasonic+sensor&qid=1613469858&s=electronics&sprefix=HC-%2Celectronics%2C282&sr=1-8) (3.63), [Cool Components](https://coolcomponents.co.uk/products/ultrasonic-distance-sensor-hc-sr04-with-jumper-wires?_pos=4&_sid=eb7df3e45&_ss=r) (2.75) |
+| Robot chassis | [Robo Savvy](https://robosavvy.com/store/dagu-magician-chassis.html) (13.10), [Amazon](https://www.amazon.co.uk/Chassis-Intelligent-Tracking-Encoder-Raspberry/dp/B076BPY2L3/ref=sr_1_4?crid=221KNRGTSCR2F&dchild=1&keywords=2wd+robot+car+chassis&qid=1613469972&sprefix=2wd+robot%2Celectronics%2C354&sr=8-4) (11.10) |
+| 2 IR sensors | [Amazon](https://www.amazon.co.uk/HALJIA-Infrared-Avoidance-Reflective-photoelectric/dp/B06Y1KB536/ref=sr_1_7?dchild=1&keywords=ir+sensor+module&qid=1613470037&sr=8-7 ) (2x4.99) |
+| 9g micro servo motor| [Robo Savvy](https://robosavvy.com/store/dagu-9g-2-kg-cm-micro-servo-motor.html) (5.10), [Amazon](https://www.amazon.co.uk/HaavPoois-Helicopter-Airplane-Walking-Control/dp/B08L4ZNY8K/ref=sr_1_12?crid=H3YEHBE06TLV&dchild=1&keywords=servo+motor+sg90&qid=1613470114&sprefix=servo+motor%2Caps%2C287&sr=8-12) (6.49) |
+
+**L298P motor shields function a bit differently than L293D as they only support 2 DC motors, and don't have specific libraries (pin initialization process has to be done manually). On the other hand, it is sufficient for our series, and learners who choose this kind of shield, are going to be supported.*
+
 ## Software
 
 There are two pieces of software that are mainly going to be used throughout the series - [Tinkercad circuit simulator](https://www.tinkercad.com/) and [Webots](https://cyberbotics.com).
