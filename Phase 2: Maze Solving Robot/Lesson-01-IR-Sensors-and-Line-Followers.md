@@ -25,7 +25,7 @@ The programming of the IR sensor is quite similar to other sensors. Even though 
 The circuitry is quite straightforward - we simply power the IR sensor by connecting GND and V++ pins to the microcontroller and then connect Vout to one of the digital pins (we are going to focus on the digital signal just for now). If we would like to connect this circuit in real life and use it as a proximity sensor, we would need to implement the following code.
 
 ```c
-#define irPin 2
+#define irPin 3
 
 void setup()
 {
